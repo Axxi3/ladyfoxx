@@ -6,7 +6,7 @@ import { Linkedin, Instagram } from 'lucide-react';
 
 export default function Foot(): JSX.Element {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-[#0e0e0e] text-white">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-9 lg:py-8">
         <div className="md:flex md:justify-between pt-4">
           {/* Logo & Address */}
