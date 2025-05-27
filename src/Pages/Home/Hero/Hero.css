@@ -1,0 +1,63 @@
+
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-slow-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+.animate-spin-slow-reverse {
+  animation: spin-slow-reverse 20s linear infinite;
+}
+
+.big-circle {
+  background: linear-gradient(
+    229deg,
+    #df7afe 13%,
+    rgba(201, 110, 240, 0) 35.02%,
+    rgba(164, 92, 219, 0) 64.17%,
+    rgb(129, 74, 200) 88%
+  );
+}
+
+.small-circle {
+  background: linear-gradient(
+    141deg,
+    #df7afe 13%,
+    rgba(201, 110, 240, 0) 35.02%,
+    rgba(164, 92, 219, 0) 64.17%,
+    rgb(129, 74, 200) 88%
+  );
+}
+
+
+@keyframes moveInward {
+  0% {
+    transform: rotate(var(--angle)) translateX(200px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(var(--angle)) translateX(0px);
+    opacity: 0;
+  }
+}
+
+.particle {
+  animation: moveInward 4s linear infinite;
+}
