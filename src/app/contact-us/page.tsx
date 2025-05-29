@@ -7,13 +7,13 @@ import ContactForm from './contactForm';
 export default function page() {
   return (
     <div className='flex flex-col items-center'>
-        <div className="md:mt-8 mt-20 flex max-w-6xl items-center flex-col justify-end mb-8 h-[50vh]">
+        <div className="md:mt-8 mt-20 flex max-w-6xl items-center flex-col px-4 justify-end mb-8 h-[50vh]">
                 <Tag>Contact Us</Tag>
                 <TextAnimate
                   animation="blurInUp"
                   by="character"
                   once
-                  className="lg:text-[70px] md:text-[60px] text-[45px]  text-white mb-1"
+                  className="lg:text-[70px] md:text-[60px] text-[45px] text-center  text-white mb-1"
                 >
                   Get in Touch with Us
                 </TextAnimate>

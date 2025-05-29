@@ -9,7 +9,7 @@ export default function Card({ step }: CardProps) {
   return (
     <div className="flex flex-col items-start justify-between p-6 bg-[#0A0A0A] rounded-2xl gap-4 w-full h-full transition-transform hover:scale-[1.02] duration-200">
       <Tag>{`STEP 0${step}`}</Tag>
-      <h4 className="text-lg md:text-[23px] font-semibold">
+      <h4 className="text-lg md:text-[23px] text-white font-semibold">
         SMART INVESTING
       </h4>
       <p className="text-sm md:text-lg text-white/60">
