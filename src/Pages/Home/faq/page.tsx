@@ -100,7 +100,7 @@ const FAQSection: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number>(0); // First FAQ open by default
 
   return (
-    <div id='faq' className="w-full text-white">
+    <div id='faq' className="w-full b text-white">
       <div className="max-w-4xl mx-auto px-6 md:px-8 py-20">
          <div className="flex flex-col items-center pt-8 sm:pt-12 lg:pt-16">
                 <Tag className="uppercase mb-2 sm:mb-6 ">Why Choose Us?</Tag>
@@ -117,7 +117,7 @@ const FAQSection: React.FC = () => {
               </div>
 
         <motion.div
-          className="space-y-0 rounded-2xl bg-opacity-50 backdrop-blur-sm p-6 md:p-10 shadow-2xl"
+          className="space-y-0 rounded-2xl bg-opacity-50 mt-4 bg-[#24514F] p-6 md:p-10 shadow-2xl"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}

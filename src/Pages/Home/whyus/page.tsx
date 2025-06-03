@@ -1,86 +1,109 @@
-import Tag from '@/components/ui/Tag'
-import React from 'react'
+import Tag from "@/components/ui/Tag";
+import React from "react";
 
 export default function page() {
   return (
-    <div className='flex items-center flex-col bg-black text-white min-h-screen'>
-        <div className="w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center pt-8 sm:pt-12 lg:pt-16">
-            <Tag className='uppercase mb-4 sm:mb-6'>Why Choose Us?</Tag>
-            <div className="max-w-4xl flex flex-col items-center justify-center gap-3 md:gap-2 py-3 pb-8 md:pb-0">
-              <h1 className='text-2xl md:text-[40px] text-center font-medium leading-tight px-4'>
-                Why Choose LadyFoxx Financial?
-              </h1>
-              <p className='text-sm md:text-[18px] text-center text-white/60 leading-relaxed px-4'>
-                Your Journey to Financial Freedom Begins with LadyFoxx, where intelligent AI meets expert financial insight to help you make smarter decisions, grow your wealth faster.
+    <div className="flex items-center flex-col rounded-tl-[60px] rounded-tr-[60px] bg-[linear-gradient(180deg,_#0C231F_0%,_#134341_100%)]  text-white min-h-screen">
+      <div className="w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center pt-8 sm:pt-12 lg:pt-16">
+          <Tag className=" mb-2 sm:mb-2">Why LadyFoxx?</Tag>
+          <div className="max-w-4xl flex flex-col items-center justify-center gap-3 md:gap-2  pb-8 md:pb-0">
+            <h1 className="text-2xl md:text-[40px] text-center font-medium leading-tight px-4">
+              Why LadyFoxx Stands Out?
+            </h1>
+            <p className="text-sm md:text-[18px] text-center text-white/60 leading-relaxed px-4">
+              Empowering next-gen investors with smart tools, secure systems,
+              and rewarding experiences.
+            </p>
+          </div>
+        </div>
+
+        {/* Features section */}
+        <div className="flex flex-col items-center gap-6 sm:gap-8 lg:gap-12 pb-8 sm:pb-12">
+          {/* Feature 1 */}
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 px-4 py-6 md:py-10 w-full feature-section">
+            {/* Image Container */}
+            <div className="p-6 bg-[#2B5755] rounded-[10px] md:p-14 w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] flex-shrink-0">
+              <img
+                src="https://finflow.uicore.co/cryptocurrency-trading/wp-content/uploads/sites/11/2023/02/Cryptocurrency-Why-Image-1.webp"
+                alt="Feature illustration"
+                className="w-full h-full object-contain"
+              />
+            </div>
+
+            {/* Content */}
+            <div className="flex flex-col items-start justify-center gap-3 md:gap-4 text-left max-w-xl">
+              <Tag>Smart</Tag>
+              <h3 className="text-xl md:text-3xl font-medium leading-tight">
+                Personalized AI Investing
+              </h3>
+              <p className="text-sm md:text-lg text-white/60 leading-relaxed">
+                Our AI Portfolio Manager, powered by OpenAI, analyzes your goals
+                and risk profile to build a customized, diversified investment
+                plan—so you can invest smarter, not harder.
+              </p>
+
+              {/* Optional extra tags */}
+              {/* 
+    <div className="flex flex-wrap gap-2 md:gap-3">
+      <Tag>Insightful</Tag>
+      <Tag>Custom Built</Tag>
+    </div> 
+    */}
+            </div>
+          </div>
+
+          {/* Feature 2 */}
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 px-4 py-6 md:py-10 w-full feature-section">
+            {/* Image */}
+            <div className="p-6 bg-[#2B5755] rounded-[10px] md:p-14 w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] order-1 md:order-2 flex-shrink-0">
+              <img
+                src="https://finflow.uicore.co/cryptocurrency-trading/wp-content/uploads/sites/11/2023/02/Cryptocurrency-Why-Image-3.webp"
+                alt="Feature illustration"
+                className="w-full h-full object-contain"
+              />
+            </div>
+
+            {/* Text Content */}
+            <div className="flex flex-col items-start justify-center gap-3 md:gap-4 order-2 md:order-1 max-w-xl md:px-8 text-left">
+              <Tag>Secure</Tag>
+              <h3 className="text-xl md:text-3xl font-medium leading-tight">
+                Secure & Transparent Blockchain Tracking
+              </h3>
+              <p className="text-sm md:text-lg text-white/60 leading-relaxed">
+                Every transaction is securely recorded on LadyFoxx&apos;s
+                Layer-1 blockchain. Enjoy peace of mind with full transparency
+                and control over your investments.
               </p>
             </div>
           </div>
 
-          {/* Features section */}
-          <div className="flex flex-col items-center gap-6 sm:gap-8 lg:gap-12 pb-8 sm:pb-12">
-            
-            {/* Feature 1 */}
-            <div className="flex feature-section items-center justify-between gap-6 md:gap-8 py-6 md:py-10 w-full px-4">
-              <img 
-                src="https://placehold.co/450x350" 
-                alt="Feature illustration" 
-                className="w-full max-w-sm md:max-w-none md:w-auto"
+          {/* Feature 3 */}
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 px-4 py-6 md:py-10 w-full feature-section">
+            {/* Image */}
+            <div className="p-6 bg-[#2B5755] rounded-[10px] md:p-14 w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] flex-shrink-0">
+              <img
+                src="https://finflow.uicore.co/cryptocurrency-trading/wp-content/uploads/sites/11/2023/02/Cryptocurrency-Why-Image-2.webp"
+                alt="Feature illustration"
+                className="w-full h-full object-contain"
               />
-              <div className="flex flex-col items-start justify-center gap-3 md:gap-4">
-                <Tag>Test</Tag>
-                <h3 className='text-xl md:text-[32px] font-medium leading-tight'>
-                  Automate repetitive tasks
-                </h3>
-                <p className='text-sm md:text-[18px] text-white/60 leading-relaxed'>
-                  We help you streamline internal operations by automating manual workflows like data entry, reporting, and approval chains saving time and cutting down errors.
-                </p>
-                <div className="flex flex-wrap gap-2 md:gap-3">
-                  <Tag>This is output</Tag>
-                  <Tag>This is output</Tag>
-                </div>
-              </div>
             </div>
 
-            {/* Feature 2 */}
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 py-6 md:py-10 w-full px-4">
-              
-              <img 
-                src="https://placehold.co/450x350" 
-                alt="Feature illustration" 
-                className="w-full max-w-sm md:max-w-none md:w-auto order-1 md:order-2"
-              />
-
-              <div className="flex flex-col items-start justify-center gap-3 md:gap-4 order-2 md:order-1 md:px-8">
-                <Tag>Test</Tag>
-                <h3 className='text-xl md:text-[32px] font-medium leading-tight'>
-                  Automate repetitive tasks
-                </h3>
-                <p className='text-sm md:text-[18px] text-white/60 leading-relaxed'>
-                  We help you streamline internal operations by automating manual workflows like data entry, reporting, and approval chains saving time and cutting down errors.
-                </p>
-              </div>
-            </div>
-
-            {/* Feature 3 */}
-            <div className="flex feature-section  items-center justify-between gap-6 md:gap-8 py-6 md:py-10 w-full px-4">
-              <img 
-                src="https://placehold.co/450x350" 
-                alt="Feature illustration" 
-                className="w-full max-w-sm md:max-w-none md:w-auto"
-              />
-              <div className="flex flex-col items-start justify-center gap-3 md:gap-4">
-                <Tag>Test</Tag>
-                <h3 className='text-xl md:text-[32px] font-medium leading-tight'>
-                  Automate repetitive tasks
-                </h3>
-                <p className='text-sm md:text-[18px] text-white/60 leading-relaxed'>
-                  We help you streamline internal operations by automating manual workflows like data entry, reporting, and approval chains saving time and cutting down errors.
-                </p>
-              </div>
+            {/* Text Content */}
+            <div className="flex flex-col items-start justify-center gap-3 md:gap-4 max-w-xl text-left">
+              <Tag>Rewarding</Tag>
+              <h3 className="text-xl md:text-3xl font-medium leading-tight">
+                A Learn-to-Earn with Real Rewards
+              </h3>
+              <p className="text-sm md:text-lg text-white/60 leading-relaxed">
+                We believe knowledge is power—and profit. Complete financial
+                education modules and quizzes to earn LDFX rewards and grow both
+                your portfolio and financial literacy.
+              </p>
             </div>
           </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }

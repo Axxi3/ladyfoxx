@@ -76,25 +76,24 @@ export default function HenneryCard({ icon, title, description }: CardProps) {
   return (
     <motion.div
       ref={cardRef}
-      className="max-w-[400px] w-full rounded-3xl pt-5 overflow-hidden text-center"
-      style={{ background: "radial-gradient(46% 31% at 50% 0%, #262626 0%, #141414 100%)" }}
+      className="max-w-[400px] w-full rounded-3xl pt-5 overflow-hidden bg-[#F1FFD2] text-center"
       initial="hidden"
       animate={isVisible ? "visible" : "hidden"}
       variants={cardVariants}
     >
       <div className="flex flex-col items-center p-4">
-        <motion.h1 className="text-white text-2xl font-bold mb-6" variants={titleVariants}>{title}</motion.h1>
-        <div className="w-full aspect-[16/9] bg-black relative rounded-3xl overflow-hidden flex items-center justify-center mb-6">
+        <motion.h1 className="text-green-800 text-2xl font-bold mb-6" variants={titleVariants}>{title}</motion.h1>
+        <div className="w-full aspect-[16/9] bg-[#24514F] relative rounded-3xl overflow-hidden flex items-center justify-center mb-6">
           {positions.map((pos, i) => (
             <motion.div key={i} className="absolute w-1 h-1 bg-gray-500/40 rounded-full" style={{ left: `${pos[0]}%`, top: `${pos[1]}%` }} custom={i} variants={dotsVariants} />
           ))}
-          <motion.div className="w-24 h-24 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center relative z-10 shadow-lg shadow-yellow-900/20" variants={iconContainerVariants}>
-            <motion.div variants={iconVariants} className="text-white" whileHover={{ rotate: [0, -10, 10, -5, 5, 0], transition: { duration: 0.5 } }}>
+          <motion.div className="w-24 h-24 bg-[#E1F381] rounded-full flex items-center justify-center relative z-10 shadow-lg shadow-yellow-900/20" variants={iconContainerVariants}>
+            <motion.div variants={iconVariants} className="text-black" whileHover={{ rotate: [0, -10, 10, -5, 5, 0], transition: { duration: 0.5 } }}>
               {icon}
             </motion.div>
           </motion.div>
         </div>
-        <motion.p className="text-gray-400 text-md leading-relaxed px-2" variants={descriptionVariants}>{description}</motion.p>
+        <motion.p className="text-gray-700 text-md leading-relaxed px-2" variants={descriptionVariants}>{description}</motion.p>
       </div>
     </motion.div>
   );

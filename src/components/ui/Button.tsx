@@ -3,7 +3,7 @@ import { HTMLAttributes } from "react";
 import Link from "next/link";
 
 const classes = cva(
-  "border h-12 rounded-full px-6 font-medium transition-colors duration-200 inline-flex items-center justify-center",
+  "border h-12 rounded-full md:text-[14px] text-[12px] px-6 font-medium transition-colors duration-200 inline-flex items-center justify-center",
   {
     variants: {
       variant: {

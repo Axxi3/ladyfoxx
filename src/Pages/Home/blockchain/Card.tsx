@@ -15,14 +15,14 @@ export default function Card({
   return (
     <div className={`
       flex flex-col items-start gap-3 sm:gap-4 
-      bg-[#0A0A0A] 
+      bg-[#2B5755] 
       p-4 sm:p-5 lg:p-6
       w-full 
-      border border-[#111111] 
+      border border-[#2B5755] 
       rounded-lg sm:rounded-xl
       transition-all duration-200
-      hover:border-[#222222]
-      hover:bg-[#0F0F0F]
+      hover:border-[#2b5755b0]
+      hover:bg-[#2b5755b0]
       ${className}
     `}>
       <h4 className='text-lg sm:text-xl lg:text-2xl font-medium text-white leading-tight'>

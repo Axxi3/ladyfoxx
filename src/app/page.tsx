@@ -9,7 +9,7 @@ import Faq from "@/Pages/Home/faq/page";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-[#134341]">
       <Hero/>
       <WhyUs/>
       <Process/>

@@ -1,4 +1,4 @@
-import Tag from '@/components/ui/Tag'
+import Tag from '../../../components/ui/Tag'
 import React from 'react'
 import featuresData from './featuresData'
 import HenneryCard from './HenneryCard'

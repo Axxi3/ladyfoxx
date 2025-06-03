@@ -16,7 +16,8 @@ export default function Navbar() {
     <header className="fixed top-0 z-50 w-full text-white py-8">
       <div className="max-w-4xl mx-auto px-4">
         {/* Rounded container with all nav elements */}
-        <div className="rounded-full border bg-black border-gray-600 flex items-center justify-between px-6 py-4">
+        <div className="rounded-full border bg-white/30 backdrop-blur-md border-gray-600 flex items-center justify-between px-6 py-4">
+
           {/* Left side - Logo */}
           <div className="flex items-center">
             <img
@@ -34,7 +35,7 @@ export default function Navbar() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-white hover:text-white transition duration-150 ease-in-out text-base"
+                className="text-white hover:text-gray-500 transition duration-150 ease-in-out text-base"
               >
                 {link.label}
               </a>

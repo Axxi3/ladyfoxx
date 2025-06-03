@@ -5,46 +5,45 @@ import { CompactLadyFoxxTags } from "./CompactLadyFoxxTags";
 
 export default function page() {
   return (
-    <div className="flex items-center flex-col bg-black text-white ">
+    <div className="flex items-center flex-col text-white">
       <div className="flex flex-col items-center pt-8 sm:pt-12 lg:pt-16">
         <Tag className="uppercase mb-2 sm:mb-6">Why Choose Us?</Tag>
         <div className="max-w-4xl flex flex-col items-center justify-center gap-3 md:gap-2 py-1 pb-8 md:pb-0">
           <h1 className="text-2xl md:text-[40px] text-center font-medium leading-tight px-4">
-            Why Choose LadyFoxx Financial?
+            LadyFoxx Blockchain & LDFX
           </h1>
           <p className="text-sm md:text-[18px] text-center text-white/60 leading-relaxed px-4">
-            Your Journey to Financial Freedom Begins with LadyFoxx, where
-            intelligent AI meets expert financial insight to help you make
-            smarter decisions, grow your wealth faster.
+            The backbone of smart wealth — built for secure, instant investing and powered by a native currency designed for modern finance.
           </p>
         </div>
       </div>
+
       <div
         className="
-      w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
-      grid grid-cols-1 md:grid-cols-2 
-      gap-4 sm:gap-6 lg:gap-8
-      py-4 sm:py-6 lg:py-8
-    "
+          w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
+          grid grid-cols-1 md:grid-cols-2 
+          gap-4 sm:gap-6 lg:gap-8
+          py-4 sm:py-6 lg:py-8
+        "
       >
         <Card
-          title="Manual Processes"
+          title="Our Layer-1 Blockchain"
           points={[
-            "Time-consuming data entry",
-            "Error-prone calculations",
-            "Repetitive task execution",
-            "Manual report generation",
-            "Inefficient workflow management",
+            "Built from scratch for secure, transparent, and instant investing",
+            "Every transaction is protected, recorded, and traceable",
+            "Designed to handle millions of users and real-world growth",
+            "Not just a token — a real Layer-1 financial blockchain",
+            "Smart contracts automate rewards and protection",
           ]}
         />
         <Card
-          title="Automated Solutions"
+          title="Meet LDFX — The Native Currency"
           points={[
-            "Streamlined data processing",
-            "Accurate automated calculations",
-            "Intelligent task scheduling",
-            "Real-time report generation",
-            "Optimized workflow automation",
+            "Powers all purchases, staking, rewards, and governance",
+            "Spend, earn, and participate across the entire ecosystem",
+            "Instant, borderless, and truly yours",
+            "Instant settlements, ultra-low fees, no third-party risk",
+            "Ready for NFTs, asset classes, and fintech integration",
           ]}
         />
       </div>
