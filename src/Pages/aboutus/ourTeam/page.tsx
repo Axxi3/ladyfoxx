@@ -4,7 +4,7 @@ import TeamSection from './teamSection'
 
 export default function page() {
   return (
-    <div className="flex items-center flex-col bg-black text-white ">
+    <div className="flex items-center flex-col w-full text-white ">
           <div className="flex flex-col items-center pt-8 sm:pt-12 lg:pt-16">
             <Tag className="uppercase mb-2 sm:mb-6">Why Choose Us?</Tag>
             <div className="max-w-4xl flex flex-col items-center justify-center gap-3 md:gap-2 py-1 pb-8 md:pb-0">

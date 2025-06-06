@@ -8,7 +8,7 @@ import Button from '@/components/ui/Button';
 
 const Hero = () => {
   return (
-    <div className="relative bg-[linear-gradient(180deg,_#134341_0.84%,_rgba(19,67,65,0)_100.84%)]  min-h-screen w-full pt-42  flex items-center justify-center overflow-hidden">
+    <div className="relative bg-[linear-gradient(180deg,_#134341_0.84%,_rgba(19,67,65,0)_100.84%)]  md:min-h-screen w-full pt-42  flex items-center justify-center overflow-hidden">
       
     
 

@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <body
-        className={`${figtree.variable} ${geistMono.variable} relative antialiased bg-black`}
+        className={`${figtree.variable} ${geistMono.variable} relative antialiased bg-[#134441]`}
       >
         <Navbar/>
         {children}

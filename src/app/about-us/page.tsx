@@ -8,8 +8,9 @@ import FAQSection from "@/Pages/Home/faq/page";
 
 export default function page() {
   return (
-    <div className="flex flex-col items-center justify-center  min-h-screen">
-      <div className="md:mt-8 mt-20 flex max-w-6xl items-center flex-col justify-center h-screen">
+    <div className="flex flex-col bg-[#134341] items-center justify-center  min-h-screen">
+      <div className="w-full flex flex-col justify-center items-center bg-[linear-gradient(180deg,_#134341_0.84%,_rgba(19,67,65,0)_100.84%)]">
+        <div className="md:mt-8  w-full mt-20 flex max-w-6xl items-center flex-col justify-center h-screen">
         <Tag>About Us</Tag>
         <TextAnimate
           animation="blurInUp"
@@ -22,18 +23,16 @@ export default function page() {
 
         <div className="text-white/60">
           <TextAnimate className="md:text-[24px] text-[16px] mt-9 px-6 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
-            doloremque corporis facere sit unde consequatur minus eos dolores
-            dolore nostrum, doloribus quas quae eaque temporibus, possimus
-            perferendis tempora ab, rerum veritatis officia sapiente quo
-            pariatur! Quaerat debitis consectetur quas minima sequi totam
-            eligendi asperiores ex aliquam esse commodi alias placeat nisi
-            deserunt dolore aperiam beatae officia a, explicabo nam facere vero
-            eaque? Debitis dignissimos nulla soluta culpa eius possimus iste,
-            corporis dolore ratione, optio facere nisi sed maiores ex non?
+            LadyFoxx is a next-generation investment platform built to democratize wealth creation through 
+            cutting-edge AI, secure blockchain technology, and a community-first approach. 
+            We eliminate entry barriers, offer intelligent portfolio management, and empower 
+            users with full control and transparency. Whether you&lsquo;re investing ₹100 or ₹1 lakh, 
+            our mission is the same: to make smart investing accessible, rewarding, and truly inclusive for everyone.
           </TextAnimate>
         </div>
       </div>
+      </div>
+      
 
       <WhyUs />
       <OurTeam />
