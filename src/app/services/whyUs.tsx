@@ -1,7 +1,7 @@
 import Tag from "@/components/ui/Tag";
 import React from "react";
 
-export default function page() {
+export default function whyus() {
   return (
     <div className="flex items-center flex-col rounded-tl-[60px] rounded-tr-[60px] bg-[linear-gradient(180deg,_#0C231F_0%,_#134341_100%)] w-full  text-white min-h-screen">
       <div className="w-full max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -23,11 +23,11 @@ export default function page() {
           {/* Feature 1 */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 px-4 py-6 md:py-10 w-full feature-section">
             {/* Image Container */}
-            <div className="p-6 bg-[#2B5755] rounded-[10px] md:p-14 w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] flex-shrink-0">
+            <div className=" bg-[#2B5755] px-14 pt-6 overflow-hidden rounded-[10px] md:px-14 md:pt-14 w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] flex-shrink-0">
               <img
-                src="https://finflow.uicore.co/cryptocurrency-trading/wp-content/uploads/sites/11/2023/02/Cryptocurrency-Why-Image-1.webp"
+                src="https://framerusercontent.com/images/x2tXWQ9bFax87lx2NUoqJHB8Wo.png"
                 alt="Feature illustration"
-                className="w-full h-full object-contain"
+                className="w-full h-[113%] object-contain"
               />
             </div>
 
@@ -56,9 +56,9 @@ export default function page() {
           {/* Feature 2 */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 px-4 py-6 md:py-10 w-full feature-section">
             {/* Image */}
-            <div className="p-6 bg-[#2B5755] rounded-[10px] md:p-14 w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] order-1 md:order-2 flex-shrink-0">
+            <div className="pl-[25px] pr-[25px] pt-[25px] bg-[#2B5755] rounded-[10px] w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] order-1 md:order-2 flex-shrink-0">
               <img
-                src="https://finflow.uicore.co/cryptocurrency-trading/wp-content/uploads/sites/11/2023/02/Cryptocurrency-Why-Image-3.webp"
+                src="https://framerusercontent.com/images/Ywn2i5CuHLg9CU9BxCkMSGwgo.png?scale-down-to=1024"
                 alt="Feature illustration"
                 className="w-full h-full object-contain"
               />
@@ -81,9 +81,9 @@ export default function page() {
           {/* Feature 3 */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 px-4 py-6 md:py-10 w-full feature-section">
             {/* Image */}
-            <div className="p-6 bg-[#2B5755] rounded-[10px] md:p-14 w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] flex-shrink-0">
+            <div className="pl-[25px] pr-[25px] pt-[25px] bg-[#2B5755] rounded-[10px] md:p-14 w-full max-w-sm md:max-w-none md:w-[450px] md:h-[350px] flex-shrink-0">
               <img
-                src="https://finflow.uicore.co/cryptocurrency-trading/wp-content/uploads/sites/11/2023/02/Cryptocurrency-Why-Image-2.webp"
+                src="https://framerusercontent.com/images/g1fnEeoRrBQWGYoJSA6waGStqxk.svg"
                 alt="Feature illustration"
                 className="w-full h-full object-contain"
               />

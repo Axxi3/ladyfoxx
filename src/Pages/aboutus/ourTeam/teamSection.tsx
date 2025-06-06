@@ -35,13 +35,13 @@ const teamMembers: TeamMember[] = [
 
 const TeamSection: React.FC = () => {
   return (
-    <section className="bg-black py-8 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-8">
+    <section className=" py-8 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 px-4 lg:gap-8">
           {teamMembers.map((member) => (
             <div
               key={member.id}
-              className="bg-[#0A0A0A] p-5  w-full  max-h-[370px] rounded-md"
+              className="bg-[#2b5755] p-5  w-full  max-h-[370px] rounded-md"
             >
               <img src={member.img} alt={member.name} className="w-full h-64 object-cover rounded-lg mb-4" />
 

@@ -13,7 +13,7 @@ export default function page() {
                   animation="blurInUp"
                   by="character"
                   once
-                  className="lg:text-[70px] md:text-[60px] text-[45px] text-center  text-white mb-1"
+                  className="lg:text-[70px] md:text-[60px] text-[38px] text-center  text-white mb-1"
                 >
                   Get in Touch with Us
                 </TextAnimate>
@@ -26,7 +26,7 @@ export default function page() {
               </div>
 
         <div className="flex md:flex-row flex-col w-full md:w-5xl md:px-0 px-4 items-center justify-center gap-5">
-              <div className="flex flex-col md:w-[50%] w-full  items-start justify-center border border-[#0F0F0F] rounded-sm p-6 bg-[#0B0B0B]">
+              <div className="flex flex-col md:w-[50%] w-full  items-start justify-center border border-[#2b5755] rounded-sm p-6 bg-[#2b5755]">
                 <div className="flex gap-2">
                     <MailOpen size={22} className=' text-white' />
                     <p className='text-white text-[18px] font-medium'>Email</p>
@@ -34,7 +34,7 @@ export default function page() {
                 <p className='text-white/60 text-[16px]'>Admin@ladyfoxx.com</p>
               </div>
 
-              <div className="flex flex-col md:w-[50%] w-full  items-start justify-center border border-[#0F0F0F] rounded-sm p-6 bg-[#0B0B0B]">
+              <div className="flex flex-col md:w-[50%] w-full  items-start justify-center border border-[#2b5755] rounded-sm p-6 bg-[#2b5755]">
                 <div className="flex gap-2">
                     <MailOpen size={22} className=' text-white' />
                     <p className='text-white text-[18px] font-medium'>Email</p>
